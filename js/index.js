@@ -8,6 +8,18 @@ var typed = new Typed('#typing-content', {
     loop:true,
   });
 
+// Detect the browser's theme preference
+const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+// Select the favicon element
+const favicon = document.querySelector('link[rel="icon"]');
+
+// Set the appropriate favicon based on the theme preference
+if (prefersDarkMode) {
+    favicon.href = 'img/image.png';
+} else {
+    favicon.href = 'img/rec_dark.png';
+}
 
 // CLOSE NAV ON CLICK
 
