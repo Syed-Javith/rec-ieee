@@ -85,10 +85,14 @@ h1
     margin-bottom: 2rem;
 }
 
-.abt-intro p
+.abt-intro p , .abt-intro li
 {
     font-size: 1.5rem;
     text-align: justify;
+}
+.abt-intro strong , li::marker{
+    color: gold;
+    font-weight: bold;
 }
 
 /* ABOUT SECTION */
