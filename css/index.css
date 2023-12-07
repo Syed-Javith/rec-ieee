@@ -6,7 +6,11 @@ body
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 h1
 {
     text-align: center;
@@ -174,6 +178,19 @@ h1
 }
 .text-body-secondary{
   color: white;
+}
+.society-carousel{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.society-carousel h5 , .society-carousel h6{
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.pels-section table.table{
+  margin: auto;
+  margin-top: 2rem;
+  width: 80%;
 }
 @media (max-width:280px)
 {
