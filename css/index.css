@@ -187,9 +187,10 @@ h1
   margin-bottom: 2rem;
   font-weight: bold;
 }
-.pels-section table.table{
+.pels-section table.table , .vts-section table.table{
   margin: auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 80%;
 }
 @media (max-width:280px)
